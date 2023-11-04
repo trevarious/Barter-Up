@@ -1,0 +1,10 @@
+User can pull up their inventory while browsing the website from a button 
+at the bottom of their page. Their inventory will scroll from the bottom 
+of the screen and take up maybe 30vh so that they can still see the browsing 
+menu and interact with it. all items will be displayed in small circle 
+pictures 
+so as to allow for all or most nventory to be easily grabbed and dragged 
+ontop of the item that they want to barter with. End user whose product 
+has been interacted with will get notification consisting of their item 
+image and the items for barter image split in half on a nice card div 
+with a question mark in the middle of the screen.

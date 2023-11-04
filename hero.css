@@ -1,0 +1,101 @@
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('assets/hero.jpeg') no-repeat center center;
+    background-color: rgba(255, 255, 255, .5);
+    background-size: cover;
+    text-align: center;
+    color: #fff; /* Set text color to be visible on the background */
+    padding: 20px; /* Add padding for spacing around the content */
+    border-bottom: 3px solid hsla(165, 95%, 34%, 1);
+    height: 60vh;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    position: relative;
+    bottom: 60px;
+    background: linear-gradient(45deg, hsla(165, 95%, 44%, .9), hsla(167, 97%, 46%, .63), hsla(165, 95%, 44%, .9));
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+#hero h3 {
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 100px;
+}
+
+#hero-sign-up-section {
+    margin-top: 20px; /* Add some spacing to the sign-up section */
+    display: flex;
+    position: relative;
+    top: 100px;
+
+}
+
+/* Style the input and button as needed */
+#hero-sign-up-section input {
+    /* Add your styles here */
+    font-size: larger;
+    border: none;
+    padding: 15px;
+    border-left: 3px solid hsla(165, 95%, 34%, 0.3);
+    border-radius: 0 0 0 9px;
+    background: linear-gradient(180deg, white 90%, hsla(0, 0%, 0%, 0.3));
+    z-index: 100;
+}
+#hero-sign-up-section input:focus{
+    outline: none;
+
+}
+#hero-sign-up-section input::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-button {
+    /* Add your styles here */
+    border: none;
+    background: linear-gradient(180deg, white 90%, hsla(0, 0%, 0%, 0.3));
+    color:hsl(165, 95%, 34%);
+    font-weight: 700;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 0 0 9px;
+    border-right: 3px solid hsla(165, 95%, 34%, 0.3);
+    cursor: pointer;
+
+}
+#hero-sign-up-section button:hover{
+    border-right: 3px solid hsla(165, 95%, 34%, 0.6);
+}
+#hero-sign-up-section button:focus{
+    outline: none;
+}
+
+
+@media (max-width: 500px){
+    #hero{
+        padding: 0 10px 10px 10px;
+        height: 100vh;
+    }
+    #hero h1{
+    font-size: 3rem;
+    bottom: 0;
+    margin-bottom: 60px;
+    }
+    #hero h3{
+        top: 250px;
+        color: rgb(30, 30, 30);
+    }
+    #hero-sign-up-section{
+        top: 250px;
+    }
+  
+}

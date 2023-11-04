@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 15px 15px;
+
+}
+nav{
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px){
+    header{
+        padding: 15px;
+        display: block;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

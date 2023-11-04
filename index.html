@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarterUp- Trade Your Items</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/categories.css">
+    <link rel="stylesheet" href="styles/items.css">
+    <link rel="stylesheet" href="styles/eyeCatcher.css">
+    <link rel="stylesheet" href="styles/quickSignUp.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="whyItWorks.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png"> 
+</head>
+<body>
+    <header>
+        <div id="logo-input-container">
+        <div class="logo"><a href="#"><p>BarterUp</p></a></div>
+        <div id="nav-input-container">
+            <input id="nav-input" type="text" placeholder="search">
+            <button class="btn search" type="submit"><img id="search-button" src="assets/search-symbol.png" alt=""></button>
+        </div>
+        </div>
+        <nav class="nav">
+            <ul>
+            <li id="signup"><a href="#">Sign Up</a></li>
+            <li id="nav-separator1"></li>
+            <li id="signin"><a href="#">Sign In</a></li>
+            <li id="nav-separator2"></li>
+            <li id="contribute"><a href="#">Contribute</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Barter Your Way To Possibilities</h1>
+            <h3>Trade your items with ease</h3>
+            <div id="hero-sign-up-section">
+                <input id="hero-input" type="" placeholder="sign up with email">
+                <button class="hero-button" type="submit">Create Account</button>
+            </div>
+        </section>
+        <div class="default-content">
+            <h1>Select A Category To View Items</h1>
+        </div>
+        <div id="categories">
+            <ul>
+                <li><a href="#" class="category-link" data-category="all">All</a></li>
+                <li><a href="#" class="category-link" data-category="automotive">Automotive</a></li>
+                <li><a href="#" class="category-link" data-category="collectables">Collectables</a></li>
+                <li><a href="#" class="category-link" data-category="cameras">Cameras</a></li>
+                <li><a href="#" class="category-link" data-category="electronics">Electronics</a></li>
+                <li><a href="#" class="category-link" data-category="homeware">Homeware</a></li>
+                <li><a href="#" class="category-link" data-category="instruments">Instruments</a></li>
+                <li><a href="#" class="category-link" data-category="jewelry">Jewelry</a></li>
+                <li><a href="#" class="category-link" data-category="services">Services</a></li>
+            </ul>
+            <select id="category-dropdown">
+                <option class="category-link" value="all">All</option>
+                <option value="automotive">Automotive</option>
+                <option value="collectables">Collectables</option>
+                <option value="cameras">Cameras</option>
+                <option value="electronics">Electronics</option>
+                <option value="homeware">Homeware</option>
+                <option value="instruments">Instruments</option>
+                <option value="jewelry">Jewelry</option>
+                <option value="services">Services</option>
+            </select>
+        </div>
+        
+        
+        
+        <section id="eye-catcher">
+            <h1 id="category-title">Barter Your Items</h1>
+            <div class="itemsContainer">
+                <div class="item" data-category="collectables">
+                    <img class="item-image" src="assets/item1.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Charizard Holographic</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="cameras">
+                    <img class="item-image" src="assets/item2.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Film Camera</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="cameras">
+                    <img class='item-image' src="assets/item3.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Cannon Camera</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="jewelry">
+                    <img class="item-image" src="assets/item4.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Ray Bans</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="cameras">
+                    <img class="item-image" src="assets/item5.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Nikon Camera</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="cameras">
+                    <img class="item-image" src="assets/item6.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Lecida M6 Camera</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="cameras">
+                    <img class="item-image" src="assets/item7.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Olympus Camera</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="instruments">
+                    <img class="item-image" src="assets/item8.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Acoustic Guitar</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="instruments">
+                    <img class="item-image" src="assets/item9.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Vintage Guitar</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="instruments">
+                    <img class="item-image" src="assets/item10.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Acoustic Guitar</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="jewelry">
+                    <img class="item-image" src="assets/item11.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Hippie Shades</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="jewelry">
+                    <img class="item-image" src="assets/item12.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Square Frame Shades</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="jewelry">
+                    <img class="item-image" src="assets/item13.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Sunglasses</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="jewelry">
+                    <img class="item-image" src="assets/item14.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Ray Ban Shades</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="jewelry">
+                    <img class="item-image" src="assets/item15.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Sunglasses</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="collectables">
+                    <img class="item-image" src="assets/item16.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Houston Vintage Cards</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="collectables">
+                    <img class="item-image" src="assets/item17.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Vaporeon</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="automotive">
+                    <img class="item-image" src="assets/item18.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>66' Mustang</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="automotive">
+                    <img class="item-image" src="assets/item19.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>69' El Camino</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="automotive">
+                    <img class="item-image" src="assets/item20.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Vintage Beetle 57'</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="automotive">
+                    <img class="item-image" src="assets/item21.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>63' Thunderbird</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item22.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Xbox One w/Controller</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item23.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Xbox 360 w/Controller</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item24.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Xbox w/Controller</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item25.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Gameboy Yellow</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item26.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Gameboy Blue</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item27.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Gameboy Pocket</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item28.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Gameboy Pocket</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item29.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Pokemon For Gameboy</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item30.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Xbox One X</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item31.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Original Playstation</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item32.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Playstation 3</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item33.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Gaming Monitor 420hz</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="electronics">
+                    <img class="item-image" src="assets/item34.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Apple 40GB RAM</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="homeware">
+                    <img class="item-image" src="assets/item35.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Brown Sofa</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="homeware">
+                    <img class="item-image" src="assets/item36.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Green Couch</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="homeware">
+                    <img class="item-image" src="assets/item37.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Love Seat</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="homeware">
+                    <img class="item-image" src="assets/item38.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Table Set Complete</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="homeware">
+                    <img class="item-image" src="assets/item39.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Ceramic Dishes</h3>
+                    <button>Barter</button>
+                </div>
+                <div class="item" data-category="homeware">
+                    <img class="item-image" src="assets/item40.jpg" alt="Item For Barter" loading="lazy">
+                    <h3>Ceramic Cup Set</h3>
+                    <button>Barter</button>
+                </div>
+                <!-- Add more items with appropriate data-category attributes for each category -->
+            </div>
+        </section>
+        
+        <section id="why-it-works">
+            <div class="parallax-bg"></div>
+            <div class="content">
+            <h1>Elevating the Role of Currency: A Return to Barter Transactions</h1>
+            <h3>Revisit an Era When Goods Are Exchanged for Goods</h3>
+            </div>
+        </section>
+        <section id="quick-sign-up">
+            <h1>Quick Sign Up</h1>
+            <p>Join BarterUp and start trading today!</p>
+            <form action="" class="signup-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit" class="btn signup-btn">Create Account</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>barterUp 2023 - All Rights Reserved</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,96 @@
+#eye-catcher h1 {
+    text-align: center;
+    height: auto;
+}
+.default-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.381);
+    border-bottom: 1px solid hsla(165, 95%, 34%, 1);
+    width: 100%;
+    height: 100px;
+}
+.default-content h1{
+    color: hsla(165, 95%, 34%, 1);
+    font-size: 3rem;
+}
+/* Center the content vertically and horizontally in "itemsContainer" */
+.itemsContainer {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start; /* Change to flex-start to align items under the first column */
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+}
+
+.itemsContainer .item {
+    flex: 0 1 calc(20% - 30px); /* 20% for 5 items in a row, minus gap and padding */
+    /* The above line sets the flex basis to 20% (5 items in a row), minus gap and padding */
+    background: hsla(0, 0%, 95%, .6);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 0%, 0.99);
+    padding: 20px;
+    max-width: 200px;
+}
+
+.item h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.itemsContainer .item:hover {
+    transform: scale(1.003); /* Change 'scale' to 'transform' for the hover effect */
+}
+
+.itemsContainer img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    max-height: 100%;
+    border: 1px solid hsla(165, 95%, 34%, 0.3);
+    border-bottom: 3px solid hsla(165, 95%, 34%, 1);
+}
+
+.itemsContainer button {
+    border: none;
+    font-size: large;
+    padding: 10px 20px;
+    background: hsla(165, 95%, 34%, 1);
+    color: hsla(0, 0%, 100%, 0.9);
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.itemsContainer button:hover {
+    background: hsla(165, 95%, 34%, .9);
+    color: hsla(0, 0%, 100%, 1);
+}
+
+@media (max-width: 500px){
+    .itemsContainer{
+        gap: 10px;
+        padding: 10px;
+    }
+    .itemsContainer.item{
+        max-width: 100px;
+        flex: 1;
+    }
+    .itemsContainer img{
+        width: 100px;
+        height: 100px;
+    }
+    .item h3 {
+        font-size: 1rem;
+        letter-spacing: -1px;
+    }
+
+    
+    
+}
