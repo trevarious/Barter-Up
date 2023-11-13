@@ -1,6 +1,7 @@
 .nav{
     z-index: 100;
 }
+
 .nav a{
     color:hsla(165, 95%, 34%, .9);
     font-weight: 900;
@@ -8,20 +9,22 @@
     padding: 15px;
 
 }
+
 .nav a:hover{
     color: hsl(165, 95%, 34%);
 }
+
 .nav ul{
     list-style: none;
     display: flex;
     justify-content: end;
     align-items: center;
 }
+
 #logo-input-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .logo p{
@@ -31,9 +34,8 @@
     margin-right: 15px;
     font-family:monospace;
     font-weight: 900;
-    
-    
 }
+
 #nav-input-container{
     flex: 1;
     display: flex;
@@ -43,6 +45,7 @@
     border-radius: 50px;
     padding: 15px;
 }
+
 #nav-input {
     border: none;
     min-width: 500px;
@@ -50,17 +53,17 @@
     font-weight: 700;
     cursor: pointer;
 }
+
 #nav-input:focus{
     outline: none;
     color: rgb(40, 40, 40);
-
 }
+
 .search{
     border: none;
     color: white;
     background: white;
     cursor: pointer;
-
 }
 
 #nav-separator1{
@@ -68,26 +71,25 @@
     height: 30px;
     background: hsla(165, 95%, 34%, .3);
     border-right: 3px solid hsla(165, 95%, 34%, .03);
-
-
 }
+
 #nav-separator2{
     width: 3px;
     height: 30px;
     background: hsla(165, 95%, 34%, .3);
     border-right: 3px solid hsla(165, 95%, 34%, .03);
-
-
 }
 
 @media (max-width: 800px) {
     #logo-input-container {
         display: none;
     }
+
     .nav{
         display: none;
         padding: 0;
     }
+    
     header{
         padding: 0;
     }

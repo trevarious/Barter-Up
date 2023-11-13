@@ -2,6 +2,7 @@
     text-align: center;
     height: auto;
 }
+
 .default-content{
     display: flex;
     align-items: center;
@@ -11,23 +12,23 @@
     width: 100%;
     height: 100px;
 }
+
 .default-content h1{
     color: hsla(165, 95%, 34%, 1);
     font-size: 3rem;
 }
-/* Center the content vertically and horizontally in "itemsContainer" */
+
 .itemsContainer {
     display: flex;
     justify-content:center;
-    align-items: flex-start; /* Change to flex-start to align items under the first column */
+    align-items: flex-start; 
     flex-wrap: wrap;
     gap: 15px;
     padding: 15px;
 }
 
 .itemsContainer .item {
-    flex: 0 1 calc(20% - 30px); /* 20% for 5 items in a row, minus gap and padding */
-    /* The above line sets the flex basis to 20% (5 items in a row), minus gap and padding */
+    flex: 0 1 calc(20% - 30px);
     background: hsla(0, 0%, 95%, .6);
     display: none;
     flex-direction: column;
@@ -45,7 +46,7 @@
 }
 
 .itemsContainer .item:hover {
-    transform: scale(1.003); /* Change 'scale' to 'transform' for the hover effect */
+    transform: scale(1.003); 
 }
 
 .itemsContainer img {

@@ -1,29 +1,10 @@
-/* Style the quick sign-up section */
-#quick-sign-up {
-    height: 80vh;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 20px;
-}
-#quick-sign-up input:focus{
-    outline:1px solid hsla(165, 95%, 44%, 1);
-
+h1 {
+    font-size: 24px;
 }
 
-/* Style the form container */
-.signup-form {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Style form elements */
-.form-group {
-    margin: 30px 0;
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 label {
@@ -43,7 +24,31 @@ input[type="password"] {
     font-size: 16px;
 }
 
-/* Style the button */
+#quick-sign-up {
+    height: 80vh;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#quick-sign-up input:focus{
+    outline:1px solid hsla(165, 95%, 44%, 1);
+}
+
+.signup-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin: 30px 0;
+}
+
 .signup-btn {
     background-color: hsla(165, 95%, 44%, 1);
     color: #fff;
@@ -56,14 +61,4 @@ input[type="password"] {
 
 .signup-btn:hover {
     background-color:rgb(6, 248, 187);
-}
-
-/* Optional: Style the h1 and p tags */
-h1 {
-    font-size: 24px;
-}
-
-p {
-    font-size: 16px;
-    margin-bottom: 20px;
 }

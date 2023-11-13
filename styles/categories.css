@@ -1,34 +1,42 @@
 #categories{
     padding: 30px;
 }
+
 #categories ul{
     list-style: none;
     display: flex;
     color: rgb(185, 183, 183);
 }
+
 #categories li {
     font-size: 20px;
     flex: 1;
 
 }
+
 #category-dropdown{
     display: none;
 }
+
 .active-category {
     border-bottom: 3px solid hsla(165, 95%, 34%, 1);
     border-radius: 6px;
   }
+
   @media (max-width: 500px){
     #categories{
         padding: 30px;
     }
+
     #categories ul{
         visibility: hidden;
     }
+
     #categories li{
         font-size: 18px;
         padding: 5px;
     }
+
     #category-dropdown{
         display: block;
         border: .5px solid hsla(165, 95%, 34%, 1);
@@ -40,21 +48,21 @@
         font-size: 15px;
         box-shadow: 1px 1px 1px 1px  rgba(4, 169, 128, 0.162);
     }
+
     select:focus{
         outline: .5px solid hsla(165, 95%, 34%, 1);
         box-shadow: 2px 2px 1px 1px  rgba(4, 169, 128, 0.162);
     }
+
     select:hover{
         scale: 1.003;
+    }
 
-    }
     #category-dropdown option {
-        background-color: #fff; /* Background color for each option */
-        color: #333; /* Text color for each option */
-        padding: 5px 10px; /* Padding inside each option */
+        background-color: #fff;
+        color: #333; 
+        padding: 5px 10px; 
     }
-    
-    
   }
 
 

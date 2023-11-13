@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 const searchContainer = document.getElementById('nav-input-container');
 const searchInput = document.getElementById('nav-input');
 const heroButton = document.querySelector('.hero-button');
