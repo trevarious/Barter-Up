@@ -140,6 +140,8 @@ contribute.addEventListener('mouseleave', () =>{
 
 });
 
+
+
 //make the pictures opacity change when scroll over
 items.forEach((item) =>{
     const itemImage = item.querySelector('.item-image');

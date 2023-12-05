@@ -43,15 +43,16 @@
     align-items: center;
     border: 2px solid black;
     border-radius: 50px;
-    padding: 15px;
+    padding: 5px;
 }
 
 #nav-input {
     border: none;
-    min-width: 500px;
+    min-width: 300px;
     font-size: 24px;
     font-weight: 700;
     cursor: pointer;
+    margin-left: 5px;
 }
 
 #nav-input:focus{
